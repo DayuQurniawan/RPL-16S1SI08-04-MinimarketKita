@@ -1,0 +1,41 @@
+<?php
+class barang {
+private $kd_barang;
+private $nama_barang;
+private $harga_jual;
+private $harga_beli;
+private $stok_barang;
+
+
+
+	function setKdbarang($KodeBrg){
+	$this->kode = $kode;
+}
+	function getKodeBrg() {
+	return $this-> kode;
+}
+	
+	function setNamabrg($namabrg){
+	$this->namabrg = $namabrg;
+}
+	function getNamaBrg() {
+	return $this-> namabrg;
+}
+	function setHargaJual($hargajual){
+	$this->hargajual = $hargajual;
+}
+	function getHargaJual() {
+	return $this-> Hargajual;
+}
+	function setHargaBeli($hargaBeli){
+	$this->hargabeli = $hargabeli;
+}
+	function getHargaBeli() {
+	return $this-> Hargabeli;
+}
+	function setStok($stok){
+	$this->stok = $stok;
+}
+	function getstok() {
+	return $this-> stok;
+}

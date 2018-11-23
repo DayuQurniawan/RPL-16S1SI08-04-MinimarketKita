@@ -1,0 +1,39 @@
+<?php
+class karyawan {
+private $id;
+private $name;
+private $notelp;
+private $username;
+private $password;
+
+
+	function setId($id){
+	$this->id = $id;
+}
+	function getId() {
+	return $this-> id;
+}
+	function setName($name){
+	$this->name = $name;
+}
+	function getName() {
+	return $this-> name;
+}
+	function seNotelp($notelp){
+	$this->notelp = $notelp;
+}
+	function getNotelp() {
+	return $this-> notelp;
+}
+	function setUsername($username){
+	$this->username = $username;
+}
+	function getUsername() {
+	return $this-> username;
+}
+	function setPassword($password){
+	$this->password = $password;
+}
+	function getPassword() {
+	return $this-> password;
+}
