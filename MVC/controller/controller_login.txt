@@ -1,0 +1,11 @@
+package controller;
+    import view.FrmLogin;
+    import java.sql.SQLException;
+/**
+ *
+ * @author tamasyake
+ */
+public interface controller_login {
+     public void Login (FrmLogin lgn) throws SQLException;
+     public void Batal (FrmLogin lgn) throws SQLException;
+}

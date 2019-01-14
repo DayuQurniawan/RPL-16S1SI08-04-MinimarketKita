@@ -1,0 +1,18 @@
+package controller;
+
+import java.sql.SQLException;
+import view.FrmBarang;
+
+/**
+ *
+ * @author tamasyake
+ */
+public interface controller_barang {
+    public void Simpan(FrmBarang brg) throws SQLException;
+    public void Ubah (FrmBarang brg) throws SQLException;
+    public void Hapus(FrmBarang brg) throws SQLException;
+    public void Batal (FrmBarang brg) throws SQLException;
+    public void KlikTabel (FrmBarang brg) throws SQLException;
+    public void Combo (FrmBarang brg) throws SQLException;
+
+}
